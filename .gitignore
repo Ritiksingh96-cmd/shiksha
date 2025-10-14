@@ -1,0 +1,50 @@
+node_modules/
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.log
+*.cache
+*.tmp
+
+# Firebase-specific
+.firebase/
+functions/node_modules/
+firestore.rules
+firestore.indexes.json
+.firebase.json
+
+# ESLint cache
+.eslintcache
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Netlify-specific
+.netlify/
+
+# Coverage reports (if you add tests)
+coverage/
